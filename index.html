@@ -1,9 +1,159 @@
-<!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>Андрей Дьяченко ФКТиПМ 22.1</title>
- </head>
-<iframe src="https://vk.com/video_ext.php?oid=-79153897&id=456239331&hash=c1677db964ebc9ae&hd=3&autoplay=1" width="1280" height="720" allow="autoplay; encrypted-media; fullscreen; picture-in-picture;" frameborder="0" allowfullscreen></iframe>
- </body>
-</html>
+<!DOCTYPE HTML>
+<html lang = "ru">
+
+	<head>
+		<title>Дьяченко Андрей</title>
+	<meta charset="utf-8">
+	
+</head>
+
+	<body>
+
+	<a id="top">Верх страницы</a>
+	
+	<ol>
+		<li>
+			<a href="http://example.com/" title="Сайт по http">Cайт по http</a>
+		</li>
+		<li>
+			<a href="https://example.com/" title="Сайт по https">Cайт по https</a>
+		</li>
+		<li>
+			<a href="https://moodle.kubsu.ru/course/view.php?id=780#maincontent">Cсылка на фрагмент другого сайта</a>
+		</li>
+		<li>
+			<a href="#" title="Вернуться к началу" class="topbutton">Ссылка на фрагмент этого сайта</a>
+		</li>
+		<li><a href="https://http://example.com/about?page=1&amp;perpage=2">сылка с двум параметрами URL</a></li>
+		<li>
+			<a href="" title="">Ссылка с пустым href</a>
+		</li>
+		<li>
+			<a onclick="window.location = 'https://www.google.ru/'">Cсылка без href</a>
+		</li>
+		<li>
+			<a href="https://www.google.ru/" rel="nofollow" title="">Непереходимая ссылка</a>
+		</li>
+		<li> 
+			<a href="”about”">Относительная ссылка на страницу в текущем каталоге</a>
+		</li>
+		<li>
+			<a href="”about/example.html”">Oтносительная ссылка на страницу в каталоге about</a>
+		</li>
+		<li>
+			<a href="”../higher.html”">Oтносительная ссылка на страницу в каталоге уровнем выше текущего</a>
+		</li>
+		<li>
+			<a href="”../../double_higher.html”">относительная на страницу в каталоге двумя уровнями выше</a>
+		</li>
+		<li>
+			<a href="”/”">Coкращенная ссылка на главную</a>
+		</li>
+		<li>
+			<a href="”/file/12345”">сокращенная ссылку на внутреннюю</a>
+		</li>
+		<li>
+			<a href="ftp://example.com/Temp/file.txt" title ="">Ссылка черз ftp</a>
+		</li>
+		<li> <a href="ftp://admin:12345@example.com/Temp/file.txt">Ссылка через ftp c авторизацией</a></li>
+		<li>
+			<a href="https://www.google.ru/" rel="noindex" title="">Неиндексируемая ссылка</a>
+		</li>
+		<li>Какой-то текст 
+			<a class="article-link" target="_blank" href="https://www.google.ru/">контекстная ссылка</a>
+			тут тоже текст
+		</li>
+		<li>
+			<a href="https://moodle.kubsu.ru/"><img src="https://old.chuvsu.ru/images/stories/novosty/2020/4/Moodle-1-740x380.png" width="150" height="150" alt="Тут должна была быть картинка"></a>
+		</li>
+		<li>
+						<p>HTML-тег map</p> <img src="image.jpg" usemap="#flower" alt="Тут должна была быть картинка">
+			<map name="flower">
+				<area shape="rect" coords="400,500,600,700" href="http://google.ru/" alt="Прямоугольник">
+				<area shape="circle" coords="300,400,500" href="http://example.com/" alt="Круг"> </map>
+		</li>
+
+
+	</ol>
+  <ol>
+ 		<li>
+ 			<a href="http://example.com/news" title="Актуальные вести">Новости</a>
+ 		</li>
+		<li>
+			<a href="http://example.com/about" title="Информация">Подробности</a>
+		</li>
+		<li>
+			<a href="http://example.com/contacts" title="Контакты">Связь</a>
+		</li>
+	</ol>
+	<form action="/"
+      method="POST">
+	<br>
+      <label>
+		<input name="field-name-1" 
+		  placeholder="Введите ваше имя" />
+	  </label><br />	
+	<br>
+	  <label>
+        <input name="field-email"
+          type="email"
+          placeholder="Введите вашу почту" />
+      </label><br />
+	<br>
+      <label>
+        Введите ваш день рождения:<br />
+        <input name="field-date"
+          value="2000-01-01"
+          type="date" />
+      </label><br />
+    <br>
+    Ваш пол:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="" />
+        Мужской</label>
+      <label><input type="radio"
+        name="radio-group-1" value="" />
+        Женский</label><br />
+    <br>
+    Количество конечностей:<br />
+      <label><input type="radio" checked="checked"
+        name="radio-group-1" value="" />
+        4</label>
+      <label><input type="radio"
+        name="radio-group-1" value="" />
+        3</label>
+      <label><input type="radio"
+        name="radio-group-1" value="" />
+        2</label>
+      <label><input type="radio"
+        name="radio-group-1" value="" />
+        1</label>
+      <label><input type="radio"
+        name="radio-group-1" value="" />
+        Ник Вуйчич</label><br />
+    <br>
+    <label>
+        Ваши сверхспособности:
+        <br />
+        <select name="field-name-4[]"
+          multiple="multiple">
+          <option value="Значение1">Бессмертие</option>
+          <option value="Значение2">Левитация</option>
+          <option value="Значение3">Умение достать кончиком языка до носа</option>
+        </select>
+      </label><br />
+      <br>
+      <label>
+        Биография:<br />
+        <textarea name="field-name-2"
+        placeholder="Расскажите о себе"></textarea>
+      </label><br />
+	<br>
+      <label><input type="checkbox" name="check-1" />C контрактом ознакомлен(а)</label><br>
+    <br>
+      <input type="submit" value="Отправить" />
+    </form>
+
+  </body>
+
+</html> 
